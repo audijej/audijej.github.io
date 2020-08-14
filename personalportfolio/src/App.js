@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer/Footer";
 import "./components/style.css"
+import LandingPage from './pages/LandingPage';
 
 
 
@@ -14,8 +15,14 @@ function App() {
   return (
     <Router>
       <div>
+
+
+
         <Navbar />
-        <Route exact path="/" component={About} />
+
+        
+
+        <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />

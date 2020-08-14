@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(92, 243, 92), white);
+    background-image: linear-gradient(rgb(92, 102, 243), white);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -49,5 +49,9 @@ i:hover {
     color: purple;
     transition: .7s;
     transform: rotate(360deg);
+}
+
+.container {
+    text-align: center;
 }
 
