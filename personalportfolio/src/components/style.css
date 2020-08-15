@@ -21,6 +21,13 @@ h1 {
     font-weight: bolder;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
 p {
     font-size: 20px;
     text-align: center;
@@ -53,11 +60,34 @@ i:hover {
 
 .container {
     text-align: center;
+    letter-spacing: 0;
+
 }
 
-.btn:hover {
-    background-color: rgb(8, 245, 245);
-    color: black;
-    font-weight: bold;
+.button {
+    color: white;
+    font-weight: lighter;
+    
+
 }
+
+.button:hover {
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    transition: all 280ms ease-in-out;
+    border-top: white solid 2px;
+    border-bottom: white solid 1px;
+    width: 0;
+    backface-visibility: hidden;
+    content: " ";
+    margin: 0 auto;
+    position: relative;
+    bottom: 0px;
+
+}
+
+
+
+
 

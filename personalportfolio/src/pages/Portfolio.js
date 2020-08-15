@@ -26,19 +26,18 @@ function Portfolio() {
 
       <Container>
 
-        <Carousel interval={3000}>
+        <Carousel interval={3000} nav-class="red" indicatorClass="red">
           <Carousel.Item>
             <Row style={{ marginBottom: "20px" }}>
               <Col>
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={Cinementality} />
                   <Card.Body>
-                    <Card.Title>Cinementality</Card.Title>
+                    <Card.Title><a href="https://nameless-island-76490.herokuapp.com/index.html" class="button" target="_blank">CineMentality</a></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                      
                       </Card.Text>
-                    <a href="https://github.com/carooflee/Project-Two" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                    <a href="https://github.com/carooflee/Project-Two" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
               </Col>
@@ -49,12 +48,12 @@ function Portfolio() {
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={FoodTruckTinder} />
                   <Card.Body>
-                    <Card.Title>Food Truck Tinder</Card.Title>
+                    <Card.Title><a href="https://audijej.github.io/Tinder-for-Food-Trucks/" class="button" target="_blank">FoodTruckTinder</a></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    
                       </Card.Text>
-                    <a href="https://github.com/audijej/Tinder-for-Food-Trucks" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                      <br></br>
+                    <a href="https://github.com/audijej/Tinder-for-Food-Trucks" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 
@@ -65,12 +64,11 @@ function Portfolio() {
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={CodeQuiz} />
                   <Card.Body>
-                    <Card.Title>Code Quiz</Card.Title>
+                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">QuizGenerator</a></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                      
                       </Card.Text>
-                    <a href="https://github.com/audijej/Web-APIs-Code-Quiz-HW-4" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Web-APIs-Code-Quiz-HW-4" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 
@@ -86,12 +84,11 @@ function Portfolio() {
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={TeamGenerator} />
                   <Card.Body>
-                    <Card.Title>Team Generator</Card.Title>
-                      <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">TeamGenerator</a></Card.Title>
+                    <Card.Text>
+                      
                       </Card.Text>
-                    <a href="https://github.com/audijej/Team-Profile-Generator" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Team-Profile-Generator" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 
@@ -102,12 +99,11 @@ function Portfolio() {
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={WeatherDashboard} />
                   <Card.Body>
-                    <Card.Title>Weather Dashboard</Card.Title>
-                      <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">WeatherDashboard</a></Card.Title>
+                    <Card.Text>
+                      
                       </Card.Text>
-                    <a href="https://github.com/audijej/Weather-Dashboard" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Weather-Dashboard" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 
@@ -117,12 +113,11 @@ function Portfolio() {
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={WorkdayPlanner} />
                   <Card.Body>
-                    <Card.Title>Workday Planner</Card.Title>
-                      <Card.Text>
-                      Some quick example text to build on the card title and make up the bulk of
-                      the card's content.
+                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">WorkdayPlanner</a></Card.Title>
+                    <Card.Text>
+                      
                       </Card.Text>
-                    <a href="https://github.com/audijej/Workday-Scheduler-with-3rd-party-APIs" class="btn btn-primary stretched-link" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Workday-Scheduler-with-3rd-party-APIs" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
               </Col>
