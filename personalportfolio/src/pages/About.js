@@ -12,7 +12,7 @@ function About() {
 <div>
     <h1>Hello. My name is Jesse</h1>
     <p>I am an aspiring Web Developer</p>
-    <Image className="rounded-circle img-fluid" id="portfolioImage" src={PortfolioImage} alt="PortfolioImage" rounded/>
+    <Image className="rounded-circle img-fluid" id="portfolioImage" style={{height:"50%", width: "50%", textAlign:"center"}} src={PortfolioImage} alt="PortfolioImage" rounded/>
 
 </div>
     );

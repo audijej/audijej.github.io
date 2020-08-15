@@ -55,3 +55,9 @@ i:hover {
     text-align: center;
 }
 
+.btn:hover {
+    background-color: rgb(8, 245, 245);
+    color: black;
+    font-weight: bold;
+}
+
