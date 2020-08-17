@@ -28,7 +28,7 @@ function LandingPage() {
 
                 <div style= {{paddingTop: "250px"}}>
             <h1>Hello. My name is Jesse</h1>
-            <p>I am an aspiring Web Developer</p>
+            <h3>I am an aspiring Web Developer</h3>
             </div>
 
         </div>

@@ -24,7 +24,7 @@ function Contact() {
         </ul>
 
         <ul>
-          <h3>Linked In</h3>
+          <h3>Linked-In</h3>
 
           <li class="social-media-icon"><a href="https://www.linkedin.com/in/jesse-a-0617881a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkIR0XT9mQlaD%2F6EEsl6UAQ%3D%3D"
             target="blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
