@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image'
 
 function About() {
   return (
-<div>
+<div id="bodyBackground">
     <div class="shadow p-3 mb-5 bg-black rounded">
       <Row>
 
@@ -34,7 +34,10 @@ function About() {
     </Col>
 
     <Col>
-   <h1>Interests</h1>
+   <h1 id="interests">Interests</h1>
+   <br></br>
+   <p>Web Development</p>
+   <p>Design</p>
    <p>Snowboarding</p>
     <p>Traveling</p>
     <p>Motorcycles</p>

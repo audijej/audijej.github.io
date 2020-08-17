@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(2, 3, 19), rgb(95, 94, 94));
+    background-color: black;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -105,5 +105,11 @@ ul {
     text-align: center;
 }
 
+#bodyBackground {
+    background-image: linear-gradient(black, grey);
+}
 
+#interests {
+    border-bottom: white solid 2px;
+}
 

@@ -20,6 +20,7 @@ import Nav from 'react-bootstrap/Nav'
 
 function Portfolio() {
   return (
+    <div id="bodyBackground">
     <div className="container">
       <h1>Portfolio page</h1>
       <h2>Projects</h2>
@@ -237,6 +238,7 @@ function Portfolio() {
 
       </div>
  */}
+    </div>
     </div>
 
 

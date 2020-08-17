@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 
 function Contact() {
   return (
+
+    <div id="bodyBackground">
     <div className="container" style= {{textAlign:"center"}}>
       <h1>Contact Page</h1>
       <Row style={{ paddingTop: "200px", paddingLeft: "275px", paddingBottom: "200px" }}>
@@ -38,6 +40,7 @@ function Contact() {
 
         </ul>
       </Row>
+    </div>
     </div>
   );
 }

@@ -26,8 +26,11 @@ function LandingPage() {
                 <source src={PortfolioVideoBackground} type="video/mp4" />
             </video>
 
+                <div style= {{paddingTop: "250px"}}>
             <h1>Hello. My name is Jesse</h1>
             <p>I am an aspiring Web Developer</p>
+            </div>
+
         </div>
     );
 }
