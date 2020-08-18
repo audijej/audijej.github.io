@@ -16,12 +16,9 @@ function App() {
     <Router>
       <div>
 
-
-
         <Navbar />
 
         
-
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />

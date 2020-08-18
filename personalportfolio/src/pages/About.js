@@ -13,13 +13,14 @@ function About() {
       <Row>
 
       <Col lg={6}>
-    <Image className="rounded-circle img-fluid" id="portfolioImage" style={{height:"100%", width: "100%", textAlign:"center"}} src={PortfolioImage} alt="PortfolioImage" rounded/>
+    <Image className=" img-fluid" id="portfolioImage" style={{height:"auto", width: "auto", textAlign:"center", paddingTop: "75px"}} src={PortfolioImage} alt="PortfolioImage" rounded/>
     </Col>
 
         <Col>
-    <h1>Hello. My name is Jesse</h1>
+    <h1 id="interests">Hello. My name is Jesse</h1>
     <p>I am an aspiring Web Developer</p>
-    <p>
+    
+    <p id="aboutParagraph">
       I am an aspiring Web Developer with a diverse work background. I have experience in the restaurant industry,
       customer service industry, warehouse and logistics industry and the healthcare industry.
       I am developing a strong working background and vast knowledge base in several programming languages in order to
@@ -31,19 +32,21 @@ function About() {
       and try new food and restaurants
 
     </p>
+
     </Col>
 
     <Col>
    <h1 id="interests">Interests</h1>
    <br></br>
-   <p>Web Development</p>
-   <p>Design</p>
-   <p>Snowboarding</p>
+    <p>Web Development</p>
+    <p>Design</p>
+    <p>Photography</p>
+    <p>Videography</p>
+    <p>Snowboarding</p>
     <p>Traveling</p>
     <p>Motorcycles</p>
     <p>Firearms</p>
-    <p>Photography</p>
-    <p>Videography</p>
+    
     </Col>
      
     </Row>

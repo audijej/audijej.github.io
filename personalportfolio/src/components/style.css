@@ -117,3 +117,19 @@ ul {
     border-bottom: white solid 2px;
 }
 
+#aboutParagraph {
+    text-align: justify;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+  color: red;
+}

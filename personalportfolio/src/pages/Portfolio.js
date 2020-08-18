@@ -27,7 +27,7 @@ function Portfolio() {
 
       <Container>
 
-        <Carousel interval={3000} nav-class="red" indicatorClass="red">
+        <Carousel interval={3000} nav-class="red" indicatorClass="red" >
           <Carousel.Item>
             <Row style={{ marginBottom: "20px" }}>
               <Col>
