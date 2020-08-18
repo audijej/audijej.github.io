@@ -15,7 +15,9 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+import { Link } from "react-router-dom";
+
 
 
 function Portfolio() {
@@ -127,6 +129,13 @@ function Portfolio() {
 
           </Carousel.Item>
         </Carousel>
+
+        <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+    <h1>Contact <span style={{color: "gold"}}> me</span> here</h1>
+            </Link>
 
       </Container>
 

@@ -20,8 +20,9 @@ function About() {
 
         <Col>
     <h1 id="interests">Hello. My name is Jesse</h1>
-    <p>I am an aspiring Web Developer</p>
-    
+    <br></br>
+    <h3>I am an aspiring Web Developer</h3>
+    <br></br>
     <p id="aboutParagraph">
       I am an aspiring Web Developer with a diverse work background. I have experience in the restaurant industry,
       customer service industry, warehouse and logistics industry and the healthcare industry.
@@ -51,10 +52,10 @@ function About() {
     <br></br>
 
     <Link
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+    to="/portfolio"
+    className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
-    <h1>See my <span style={{color: "gold"}}> projects</span>here</h1>
+    <h1>See my <span style={{color: "gold"}}> projects</span> here</h1>
     </Link>
 
     

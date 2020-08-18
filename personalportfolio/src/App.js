@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer/Footer";
 import "./components/style.css"
 import LandingPage from './pages/LandingPage';
+import Header from './components/Navbar/Navbar';
 
 
 
@@ -16,13 +17,13 @@ function App() {
     <Router>
       <div>
 
-        <Navbar />
-
+<Header />
         
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <br></br>
         <Footer />
 
       </div>
