@@ -4,7 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PortfolioImage from "../components/Images/PortfolioPic2.jpg";
 import "../components/style.css";
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import { Link } from "react-router-dom";
+
 
 function About() {
   return (
@@ -46,6 +48,15 @@ function About() {
     <p>Traveling</p>
     <p>Motorcycles</p>
     <p>Firearms</p>
+    <br></br>
+
+    <Link
+              to="/portfolio"
+              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+            >
+    <h1>See my <span style={{color: "gold"}}> projects</span>here</h1>
+    </Link>
+
     
     </Col>
      
