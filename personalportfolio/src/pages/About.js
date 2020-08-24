@@ -32,7 +32,7 @@ function About() {
       I am currently attending the University of Washington coding bootcamp.
       I am mostly interested in front end, UI and UX development.
       When I'm not enhancing my skill set, I love to spend time with my wife, son, and two dogs. We love to travel, shop
-      and try new food and restaurants
+      and try new food and restaurants. I am also a hobbyist photographer and videographer. 
 
     </p>
 
@@ -48,7 +48,6 @@ function About() {
     <p>Snowboarding</p>
     <p>Traveling</p>
     <p>Motorcycles</p>
-    <p>Firearms</p>
     <br></br>
 
     <Link
