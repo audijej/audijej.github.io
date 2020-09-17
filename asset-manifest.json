@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/audijej.github.io/static/css/main.bf0a1993.chunk.css",
-    "main.js": "/audijej.github.io/static/js/main.28da6188.chunk.js",
-    "main.js.map": "/audijej.github.io/static/js/main.28da6188.chunk.js.map",
+    "main.js": "/audijej.github.io/static/js/main.3891303c.chunk.js",
+    "main.js.map": "/audijej.github.io/static/js/main.3891303c.chunk.js.map",
     "runtime-main.js": "/audijej.github.io/static/js/runtime-main.836a1d6a.js",
     "runtime-main.js.map": "/audijej.github.io/static/js/runtime-main.836a1d6a.js.map",
-    "static/js/2.5a4d647b.chunk.js": "/audijej.github.io/static/js/2.5a4d647b.chunk.js",
-    "static/js/2.5a4d647b.chunk.js.map": "/audijej.github.io/static/js/2.5a4d647b.chunk.js.map",
+    "static/js/2.99a7fce4.chunk.js": "/audijej.github.io/static/js/2.99a7fce4.chunk.js",
+    "static/js/2.99a7fce4.chunk.js.map": "/audijej.github.io/static/js/2.99a7fce4.chunk.js.map",
     "index.html": "/audijej.github.io/index.html",
-    "precache-manifest.72d1136851d48a90bfa9f863ebc8312d.js": "/audijej.github.io/precache-manifest.72d1136851d48a90bfa9f863ebc8312d.js",
+    "precache-manifest.b27ef294650611fc37f973bec8b98704.js": "/audijej.github.io/precache-manifest.b27ef294650611fc37f973bec8b98704.js",
     "service-worker.js": "/audijej.github.io/service-worker.js",
     "static/css/main.bf0a1993.chunk.css.map": "/audijej.github.io/static/css/main.bf0a1993.chunk.css.map",
-    "static/js/2.5a4d647b.chunk.js.LICENSE.txt": "/audijej.github.io/static/js/2.5a4d647b.chunk.js.LICENSE.txt",
+    "static/js/2.99a7fce4.chunk.js.LICENSE.txt": "/audijej.github.io/static/js/2.99a7fce4.chunk.js.LICENSE.txt",
     "static/media/Cinementality.png": "/audijej.github.io/static/media/Cinementality.7e210885.png",
     "static/media/PortfolioPic2.jpg": "/audijej.github.io/static/media/PortfolioPic2.7ecfdb2b.jpg",
     "static/media/PortfolioVideoBackground3.mp4": "/audijej.github.io/static/media/PortfolioVideoBackground3.8dd6811a.mp4",
     "static/media/TeamGenerator.png": "/audijej.github.io/static/media/TeamGenerator.61c088d1.png",
     "static/media/codeQuiz.png": "/audijej.github.io/static/media/codeQuiz.af7bd486.png",
     "static/media/foodTruckTinder.png": "/audijej.github.io/static/media/foodTruckTinder.b38f8af3.png",
+    "static/media/resume-logo.jpg": "/audijej.github.io/static/media/resume-logo.0f825fab.jpg",
     "static/media/weatherDashboard.png": "/audijej.github.io/static/media/weatherDashboard.3a8390e4.png",
     "static/media/workdayPlanner.png": "/audijej.github.io/static/media/workdayPlanner.79e02514.png"
   },
   "entrypoints": [
     "static/js/runtime-main.836a1d6a.js",
-    "static/js/2.5a4d647b.chunk.js",
+    "static/js/2.99a7fce4.chunk.js",
     "static/css/main.bf0a1993.chunk.css",
-    "static/js/main.28da6188.chunk.js"
+    "static/js/main.3891303c.chunk.js"
   ]
 }

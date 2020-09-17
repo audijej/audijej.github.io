@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eeaa4d1a0f232c9bc9bfc351f84e371e",
+    "revision": "8f4da46ce007aaed5eafdb11ebd25009",
     "url": "/audijej.github.io/index.html"
   },
   {
-    "revision": "46ab82f6318e32338d6c",
+    "revision": "64dc44dd2868bb655784",
     "url": "/audijej.github.io/static/css/main.bf0a1993.chunk.css"
   },
   {
-    "revision": "3fe62539bf7026f82c20",
-    "url": "/audijej.github.io/static/js/2.5a4d647b.chunk.js"
+    "revision": "91dca58d5396d0452bca",
+    "url": "/audijej.github.io/static/js/2.99a7fce4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/audijej.github.io/static/js/2.5a4d647b.chunk.js.LICENSE.txt"
+    "url": "/audijej.github.io/static/js/2.99a7fce4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46ab82f6318e32338d6c",
-    "url": "/audijej.github.io/static/js/main.28da6188.chunk.js"
+    "revision": "64dc44dd2868bb655784",
+    "url": "/audijej.github.io/static/js/main.3891303c.chunk.js"
   },
   {
     "revision": "fadd01e001424df247dd",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b38f8af3b0e5dee66ea1e6e2bed4c469",
     "url": "/audijej.github.io/static/media/foodTruckTinder.b38f8af3.png"
+  },
+  {
+    "revision": "0f825fabdb02b4435d1fe02ec750900c",
+    "url": "/audijej.github.io/static/media/resume-logo.0f825fab.jpg"
   },
   {
     "revision": "3a8390e4024aeee2093e07804fb0638b",
