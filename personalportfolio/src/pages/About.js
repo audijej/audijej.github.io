@@ -57,10 +57,31 @@ function About() {
     <h1>See my <span style={{color: "gold"}}> projects</span> here</h1>
     </Link>
 
-    
+    <Row>
+      <Col>
+      <h1>Languages</h1>
+
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>Javascript</p>
+      <p>node.js</p>
+      <p>jquery</p>
+      <p>JSON</p>
+      <p>SQL</p>
+      <p>Sequelize</p>
+      <p>Mongo</p>
+      <p>Mongoose</p>
+      <p>React</p>
+      </Col>
+      
+    </Row>
     </Col>
+
+   
      
     </Row>
+
+   
   </div>
 
    
