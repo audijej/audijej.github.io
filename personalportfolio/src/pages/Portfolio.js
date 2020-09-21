@@ -13,7 +13,9 @@ import FoodTruckTinder from "../components/Images/foodTruckTinder.png";
 import TeamGenerator from "../components/Images/TeamGenerator.png";
 import WeatherDashboard from "../components/Images/weatherDashboard.png";
 import WorkdayPlanner from "../components/Images/workdayPlanner.png";
-import GoogleBookSearchScreenshot from "../components/Images/Google-Book-Search-Screenshot.png"
+import GoogleBookSearchScreenshot from "../components/Images/Google-Book-Search-Screenshot.png";
+import EmployeeDirectoryReactScreenshot from "../components/Images/Employee-Directory-React-Screenshot.png";
+import DevourTheBurgers from "../components/Images/Devour-The-Burgers-Screenshot.png"
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -103,13 +105,13 @@ function Portfolio() {
               <Col>
 
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
-                  <Card.Img variant="top" src={WeatherDashboard} />
+                  <Card.Img variant="top" src={EmployeeDirectoryReactScreenshot} />
                   <Card.Body>
-                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">WeatherDashboard</a></Card.Title>
+                    <Card.Title><a href="https://audijej.github.io/Employee-Directory-React/" target="_blank" class="button">Employee Directory Search React</a></Card.Title>
                     <Card.Text>
                       
                       </Card.Text>
-                    <a href="https://github.com/audijej/Weather-Dashboard" class="btn btn-primary" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Employee-Directory-React" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 
@@ -117,13 +119,13 @@ function Portfolio() {
 
               <Col>
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
-                  <Card.Img variant="top" src={WorkdayPlanner} />
+                  <Card.Img variant="top" src={DevourTheBurgers} />
                   <Card.Body>
-                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">WorkdayPlanner</a></Card.Title>
+                    <Card.Title><a href="https://morning-mountain-95441.herokuapp.com/" target="_blank" class="button">Devour The Burgers</a></Card.Title>
                     <Card.Text>
                       
                       </Card.Text>
-                    <a href="https://github.com/audijej/Workday-Scheduler-with-3rd-party-APIs" class="btn btn-primary" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/devour-the-burgers" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
               </Col>
