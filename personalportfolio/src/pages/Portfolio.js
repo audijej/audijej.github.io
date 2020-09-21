@@ -4,13 +4,16 @@ import React from "react";
 // import Row from "../components/Row";
 // import Col from "../components/Col";
 import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button';
 import Cinementality from "../components/Images/Cinementality.png";
 import CodeQuiz from "../components/Images/codeQuiz.png";
+import SoundVesselScreenshot from "../components/Images/Sound-Vessel-Screenshot.png";
 import FoodTruckTinder from "../components/Images/foodTruckTinder.png";
 import TeamGenerator from "../components/Images/TeamGenerator.png";
 import WeatherDashboard from "../components/Images/weatherDashboard.png";
 import WorkdayPlanner from "../components/Images/workdayPlanner.png";
+import GoogleBookSearchScreenshot from "../components/Images/Google-Book-Search-Screenshot.png"
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -29,9 +32,25 @@ function Portfolio() {
 
       <Container>
 
-        <Carousel interval={3000} nav-class="red" indicatorClass="red" >
+        <Carousel interval={4000} nav-class="red" indicatorClass="red" >
           <Carousel.Item>
             <Row style={{ marginBottom: "20px" }}>
+
+              <CardDeck>
+
+            <Col>
+                <Card style={{ width: '18rem', backgroundColor: "gray" }}>
+                  <Card.Img variant="top" src={SoundVesselScreenshot} />
+                  <Card.Body>
+                    <Card.Title><a href="https://murmuring-wave-55769.herokuapp.com/" target="_blank" class="button">Sound Vessel Traffic</a></Card.Title>
+                    <Card.Text>
+                      
+                      </Card.Text>
+                    <a href="https://github.com/kaitekelly/Sound-Vessel-Traffic" class="btn btn-primary" target="_blank">GitHub</a>
+                  </Card.Body>
+                </Card>
+              </Col>
+
               <Col>
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={Cinementality} />
@@ -47,7 +66,6 @@ function Portfolio() {
 
 
               <Col>
-
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
                   <Card.Img variant="top" src={FoodTruckTinder} />
                   <Card.Body>
@@ -55,27 +73,12 @@ function Portfolio() {
                     <Card.Text>
                     
                       </Card.Text>
-                      <br></br>
                     <a href="https://github.com/audijej/Tinder-for-Food-Trucks" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
-
               </Col>
 
-              <Col>
-
-                <Card style={{ width: '18rem', backgroundColor: "gray" }}>
-                  <Card.Img variant="top" src={CodeQuiz} />
-                  <Card.Body>
-                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">QuizGenerator</a></Card.Title>
-                    <Card.Text>
-                      
-                      </Card.Text>
-                    <a href="https://github.com/audijej/Web-APIs-Code-Quiz-HW-4" class="btn btn-primary" target="_blank">GitHub</a>
-                  </Card.Body>
-                </Card>
-
-              </Col>
+              </CardDeck>
 
             </Row>
           </Carousel.Item>
@@ -85,13 +88,13 @@ function Portfolio() {
 
               <Col>
                 <Card style={{ width: '18rem', backgroundColor: "gray" }}>
-                  <Card.Img variant="top" src={TeamGenerator} />
+                  <Card.Img variant="top" src={GoogleBookSearchScreenshot} />
                   <Card.Body>
-                    <Card.Title><a href="https://audijej.github.io/Web-APIs-Code-Quiz-HW-4/" target="_blank" class="button">TeamGenerator</a></Card.Title>
+                    <Card.Title><a href="https://google-book-search-reactify.herokuapp.com/" target="_blank" class="button">Google Book Search</a></Card.Title>
                     <Card.Text>
                       
                       </Card.Text>
-                    <a href="https://github.com/audijej/Team-Profile-Generator" class="btn btn-primary" target="_blank">GitHub</a>
+                    <a href="https://github.com/audijej/Google-Book-Search" class="btn btn-primary" target="_blank">GitHub</a>
                   </Card.Body>
                 </Card>
 

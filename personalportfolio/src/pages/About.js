@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 
 function About() {
+  
   return (
 <div id="bodyBackground">
     <div class="shadow p-3 mb-5 bg-black rounded">
