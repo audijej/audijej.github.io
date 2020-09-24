@@ -1,3 +1,28 @@
-nav.navbar.navbar-default {
-    margin-bottom: 0;
-  }
+
+.navbar {
+  background-color: rgb(66, 52, 39);
+  color: white;
+}
+
+.navbar:hover{
+  background-color: white;
+  color: black;
+  transition: background-color .5s;
+}
+
+.navbar:hover #navbarTab {
+color: black;
+font-weight: bolder;
+}
+
+#navbarTab {
+  color: white;
+  font-size: 20px;
+}
+
+
+
+li {
+  text-align: right;
+
+}

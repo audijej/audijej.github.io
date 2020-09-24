@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 // import Hero from "../components/Hero";
-// import Container from "../components/Container";
+import Container from 'react-bootstrap/Container'
 // import Row from "../components/Row";
 // import Col from "../components/Col";
+import Jumbotron from 'react-bootstrap/Jumbotron'
 import PortfolioImage from "../components/Images/PortfolioPic2.jpg";
 import PortfolioVideoBackground from "../components/Videos/PortfolioVideoBackground3.mp4";
+import FallsSlomo from "../components/Videos/FallsSlomo.mp4";
 import "../components/style.css";
 import { Link } from "react-router-dom";
 // import Image from 'react-bootstrap/Image'
@@ -12,22 +14,23 @@ import { Link } from "react-router-dom";
 function LandingPage() {
     return (
         <div>
-            
-            {/* <Image className="rounded-circle img-fluid" id="portfolioImage" src={PortfolioImage} alt="PortfolioImage" rounded/> */}
 
-            <video autoPlay loop muted
-                style={{
-                    position: "absolute",
-                    width: "100%",
-                    objectFit: "cover",
-                    zIndex: "-1",
-                    opacity: "70%"
-                }}
+        <Jumbotron>
+
+        <video autoPlay loop muted
+                // style={{
+                //     position: "absolute",
+                //     width: "100%",
+                //     objectFit: "cover",
+                //     zIndex: "1",
+                //     opacity: "70%",
+                // }}
             >
-                <source src={PortfolioVideoBackground} type="video/mp4" />
+                <source src={FallsSlomo} type="video/mp4" />
             </video>
 
-                <div style= {{paddingTop: "250px"}}>
+            <Container className="container">
+            <div style= {{padding: "350px"}}>
             <h1>Hello. My name is Jesse</h1>
             <h3>I am an aspiring Web Developer</h3>
             <br></br>
@@ -42,6 +45,17 @@ function LandingPage() {
     <h1>Get to know <span style={{color: "gold"}}> me</span> here</h1>
             </Link>
             </div>
+            </Container>
+        </Jumbotron>
+                
+           
+             
+            
+            {/* <Image className="rounded-circle img-fluid" id="portfolioImage" src={PortfolioImage} alt="PortfolioImage" rounded/> */}
+
+          
+
+       
 
         </div>
     );
