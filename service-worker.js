@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/audijej.github.io/precache-manifest.b27ef294650611fc37f973bec8b98704.js"
+  "/audijej.github.io/precache-manifest.7aef816bb3d2a43a86eca42072d05660.js"
 );
 
 self.addEventListener('message', (event) => {

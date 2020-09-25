@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/audijej.github.io/static/css/main.bf0a1993.chunk.css",
-    "main.js": "/audijej.github.io/static/js/main.3891303c.chunk.js",
-    "main.js.map": "/audijej.github.io/static/js/main.3891303c.chunk.js.map",
+    "main.css": "/audijej.github.io/static/css/main.116ae686.chunk.css",
+    "main.js": "/audijej.github.io/static/js/main.1e3f6fa7.chunk.js",
+    "main.js.map": "/audijej.github.io/static/js/main.1e3f6fa7.chunk.js.map",
     "runtime-main.js": "/audijej.github.io/static/js/runtime-main.836a1d6a.js",
     "runtime-main.js.map": "/audijej.github.io/static/js/runtime-main.836a1d6a.js.map",
-    "static/js/2.99a7fce4.chunk.js": "/audijej.github.io/static/js/2.99a7fce4.chunk.js",
-    "static/js/2.99a7fce4.chunk.js.map": "/audijej.github.io/static/js/2.99a7fce4.chunk.js.map",
+    "static/js/2.c6cb6a65.chunk.js": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js",
+    "static/js/2.c6cb6a65.chunk.js.map": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js.map",
     "index.html": "/audijej.github.io/index.html",
-    "precache-manifest.b27ef294650611fc37f973bec8b98704.js": "/audijej.github.io/precache-manifest.b27ef294650611fc37f973bec8b98704.js",
+    "precache-manifest.7aef816bb3d2a43a86eca42072d05660.js": "/audijej.github.io/precache-manifest.7aef816bb3d2a43a86eca42072d05660.js",
     "service-worker.js": "/audijej.github.io/service-worker.js",
-    "static/css/main.bf0a1993.chunk.css.map": "/audijej.github.io/static/css/main.bf0a1993.chunk.css.map",
-    "static/js/2.99a7fce4.chunk.js.LICENSE.txt": "/audijej.github.io/static/js/2.99a7fce4.chunk.js.LICENSE.txt",
+    "static/css/main.116ae686.chunk.css.map": "/audijej.github.io/static/css/main.116ae686.chunk.css.map",
+    "static/js/2.c6cb6a65.chunk.js.LICENSE.txt": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js.LICENSE.txt",
     "static/media/Cinementality.png": "/audijej.github.io/static/media/Cinementality.7e210885.png",
+    "static/media/Devour-The-Burgers-Screenshot.png": "/audijej.github.io/static/media/Devour-The-Burgers-Screenshot.3a486fb0.png",
+    "static/media/Employee-Directory-React-Screenshot.png": "/audijej.github.io/static/media/Employee-Directory-React-Screenshot.c6de4b82.png",
+    "static/media/FallsSlomo.mp4": "/audijej.github.io/static/media/FallsSlomo.02f24c81.mp4",
+    "static/media/Google-Book-Search-Screenshot.png": "/audijej.github.io/static/media/Google-Book-Search-Screenshot.4be6f4e2.png",
     "static/media/PortfolioPic2.jpg": "/audijej.github.io/static/media/PortfolioPic2.7ecfdb2b.jpg",
     "static/media/PortfolioVideoBackground3.mp4": "/audijej.github.io/static/media/PortfolioVideoBackground3.8dd6811a.mp4",
+    "static/media/Sound-Vessel-Screenshot.png": "/audijej.github.io/static/media/Sound-Vessel-Screenshot.b9a34cbe.png",
     "static/media/TeamGenerator.png": "/audijej.github.io/static/media/TeamGenerator.61c088d1.png",
     "static/media/codeQuiz.png": "/audijej.github.io/static/media/codeQuiz.af7bd486.png",
     "static/media/foodTruckTinder.png": "/audijej.github.io/static/media/foodTruckTinder.b38f8af3.png",
@@ -24,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.836a1d6a.js",
-    "static/js/2.99a7fce4.chunk.js",
-    "static/css/main.bf0a1993.chunk.css",
-    "static/js/main.3891303c.chunk.js"
+    "static/js/2.c6cb6a65.chunk.js",
+    "static/css/main.116ae686.chunk.css",
+    "static/js/main.1e3f6fa7.chunk.js"
   ]
 }
