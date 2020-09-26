@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/audijej.github.io/static/css/main.8e535cc9.chunk.css",
-    "main.js": "/audijej.github.io/static/js/main.1e3f6fa7.chunk.js",
-    "main.js.map": "/audijej.github.io/static/js/main.1e3f6fa7.chunk.js.map",
+    "main.css": "/audijej.github.io/static/css/main.72e5f797.chunk.css",
+    "main.js": "/audijej.github.io/static/js/main.86c929b8.chunk.js",
+    "main.js.map": "/audijej.github.io/static/js/main.86c929b8.chunk.js.map",
     "runtime-main.js": "/audijej.github.io/static/js/runtime-main.836a1d6a.js",
     "runtime-main.js.map": "/audijej.github.io/static/js/runtime-main.836a1d6a.js.map",
     "static/js/2.c6cb6a65.chunk.js": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js",
     "static/js/2.c6cb6a65.chunk.js.map": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js.map",
     "index.html": "/audijej.github.io/index.html",
-    "precache-manifest.07f8897cd1059761f3d309312eb86505.js": "/audijej.github.io/precache-manifest.07f8897cd1059761f3d309312eb86505.js",
+    "precache-manifest.6e410114cb1b3a1afecc4c9e4327c83e.js": "/audijej.github.io/precache-manifest.6e410114cb1b3a1afecc4c9e4327c83e.js",
     "service-worker.js": "/audijej.github.io/service-worker.js",
-    "static/css/main.8e535cc9.chunk.css.map": "/audijej.github.io/static/css/main.8e535cc9.chunk.css.map",
+    "static/css/main.72e5f797.chunk.css.map": "/audijej.github.io/static/css/main.72e5f797.chunk.css.map",
     "static/js/2.c6cb6a65.chunk.js.LICENSE.txt": "/audijej.github.io/static/js/2.c6cb6a65.chunk.js.LICENSE.txt",
     "static/media/Cinementality.png": "/audijej.github.io/static/media/Cinementality.7e210885.png",
     "static/media/Devour-The-Burgers-Screenshot.png": "/audijej.github.io/static/media/Devour-The-Burgers-Screenshot.3a486fb0.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.836a1d6a.js",
     "static/js/2.c6cb6a65.chunk.js",
-    "static/css/main.8e535cc9.chunk.css",
-    "static/js/main.1e3f6fa7.chunk.js"
+    "static/css/main.72e5f797.chunk.css",
+    "static/js/main.86c929b8.chunk.js"
   ]
 }
