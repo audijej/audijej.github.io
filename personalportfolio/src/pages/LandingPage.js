@@ -17,7 +17,7 @@ function LandingPage() {
 
         <Jumbotron>
 
-        <video autoPlay loop muted
+        <video id="coverVideo" autoPlay loop muted
                 // style={{
                 //     position: "absolute",
                 //     width: "100%",
@@ -29,7 +29,7 @@ function LandingPage() {
                 <source src={FallsSlomo} type="video/mp4" />
             </video>
 
-            <Container className="container">
+            <Container className="landingPageContainer">
             <div style= {{padding: "350px"}}>
             <h1>Hello. My name is Jesse</h1>
             <h3>I am an aspiring Web Developer</h3>
