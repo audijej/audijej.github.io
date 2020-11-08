@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 
 function About() {
-  
+
   return (
 <div id="bodyBackground">
     <div class="shadow p-3 mb-5 bg-black rounded">
@@ -56,6 +56,13 @@ function About() {
     className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
     <h1>See my <span style={{color: "gold"}}> projects</span> here</h1>
+    </Link>
+
+    <Link
+    to="/photos"
+    className={window.location.pathname === "/photos" ? "nav-link active" : "nav-link"}
+            >
+    <h1>See my <span style={{color: "gold"}}> photos</span> here</h1>
     </Link>
 
     <Row>

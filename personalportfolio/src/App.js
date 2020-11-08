@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import "./components/style.css"
 import LandingPage from './pages/LandingPage';
 import Header from './components/Navbar/Navbar';
+import PhotographsPage from './pages/Photographs';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/photos" component={PhotographsPage} />
         <br></br>
         <Footer />
 
