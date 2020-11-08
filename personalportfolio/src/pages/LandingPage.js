@@ -31,7 +31,7 @@ function LandingPage() {
 
             <Container className="landingPageContainer">
             <div style= {{padding: "350px"}}>
-            <h1>Hello. My name is Jesse</h1>
+            <h1>Hello. My name is Jesse Audije.</h1>
             <h3>I am an aspiring Web Developer</h3>
             <br></br>
             <Link

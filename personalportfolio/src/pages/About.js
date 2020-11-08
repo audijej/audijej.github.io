@@ -16,7 +16,7 @@ function About() {
       <Row>
 
       <Col lg={6}>
-    <Image className=" img-fluid" id="portfolioImage" style={{height:"auto", width: "auto", textAlign:"center", paddingTop: "75px"}} src={PortfolioImage} alt="PortfolioImage" rounded/>
+    <Image className="img-fluid" id="portfolioImage" style={{height:"auto", width: "auto", textAlign:"center", paddingTop: "75px"}} src={PortfolioImage} alt="PortfolioImage" rounded/>
     </Col>
 
         <Col>
