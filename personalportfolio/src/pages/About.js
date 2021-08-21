@@ -26,11 +26,12 @@ function About() {
     <br></br>
     <p id="aboutParagraph">
       I am an aspiring Web Developer with a diverse work background. I have experience in the restaurant industry,
-      customer service industry, warehouse and logistics industry and the healthcare industry.
+      customer service industry, warehouse and logistics industry and the healthcare industry. I currently work at evo
+      as an Inbound Administrator.
       I am developing a strong working background and vast knowledge base in several programming languages in order to
       become a full stack developer.
       
-      I am currently attending the University of Washington coding bootcamp.
+      I have recently graduated the University of Washington coding bootcamp.
       I am mostly interested in front end, UI and UX development.
       When I'm not enhancing my skill set, I love to spend time with my wife, son, and two dogs. We love to travel, shop
       and try new food and restaurants. I am also a hobbyist photographer and videographer. 
